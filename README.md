@@ -64,72 +64,72 @@ simple weather app created with node.js and express.js
 
 ## List of files
 
-📦image processing api
- ┣ 📂dist
- ┃ ┣ 📂middleware
- ┃ ┃ ┣ 📜logger.js
- ┃ ┃ ┗ 📜urlvalid.js
- ┃ ┣ 📂routes
- ┃ ┃ ┗ 📜route.js
- ┃ ┣ 📂tests
- ┃ ┃ ┣ 📂helpers
- ┃ ┃ ┃ ┗ 📜reporter.js
- ┃ ┃ ┗ 📜index.Spec.js
- ┃ ┣ 📂utils
- ┃ ┃ ┣ 📜controller.js
- ┃ ┃ ┣ 📜imgAvilablitiy.js
- ┃ ┃ ┗ 📜resizeimg.js
- ┃ ┗ 📜index.js
- ┣ 📂images
- ┃ ┣ 📂thumbnail
- ┃ ┃ ┣ 📜encenadaport_200_200.jpg
- ┃ ┃ ┣ 📜fjord_10_990.jpg
- ┃ ┃ ┣ 📜fjord_1290_890.png
- ┃ ┃ ┣ 📜fjord_200_200.jpg
- ┃ ┃ ┣ 📜fjord_null_400.jpg
- ┃ ┃ ┣ 📜fjord_null_990.jpg
- ┃ ┃ ┣ 📜icelandwaterfall_200_200.jpg
- ┃ ┃ ┣ 📜palmtunnel_200_200.jpg
- ┃ ┃ ┗ 📜santamonica_200_200.jpg
- ┃ ┣ 📜encenadaport.jpg
- ┃ ┣ 📜fjord.jpg
- ┃ ┣ 📜icelandwaterfall.jpg
- ┃ ┣ 📜palmtunnel.jpg
- ┃ ┗ 📜santamonica.jpg
- ┣ 📂public
- ┃ ┣ 📂css
- ┃ ┃ ┣ 📜normalize.css
- ┃ ┃ ┗ 📜style.css
- ┃ ┣ 📂thumbimg
- ┃ ┃ ┣ 📜encenadaport_250_250.jpg
- ┃ ┃ ┣ 📜fjord_250_250.jpg
- ┃ ┃ ┣ 📜icelandwaterfall_250_250.jpg
- ┃ ┃ ┣ 📜palmtunnel_250_250.jpg
- ┃ ┃ ┗ 📜santamonica_250_250.jpg
- ┃ ┗ 📜index.html
- ┣ 📂spec
- ┃ ┗ 📂support
- ┃ ┃ ┗ 📜jasmine.json
- ┣ 📂src
- ┃ ┣ 📂middleware
- ┃ ┃ ┣ 📜logger.ts
- ┃ ┃ ┗ 📜urlvalid.ts
- ┃ ┣ 📂routes
- ┃ ┃ ┗ 📜route.ts
- ┃ ┣ 📂tests
- ┃ ┃ ┣ 📂helpers
- ┃ ┃ ┃ ┗ 📜reporter.ts
+📦image processing api\
+ ┣ 📂dist\
+ ┃ ┣ 📂middleware\
+ ┃ ┃ ┣ 📜logger.js\
+ ┃ ┃ ┗ 📜urlvalid.js\
+ ┃ ┣ 📂routes\
+ ┃ ┃ ┗ 📜route.js\
+ ┃ ┣ 📂tests\
+ ┃ ┃ ┣ 📂helpers\
+ ┃ ┃ ┃ ┗ 📜reporter.js\
+ ┃ ┃ ┗ 📜index.Spec.js\
+ ┃ ┣ 📂utils\
+ ┃ ┃ ┣ 📜controller.js\
+ ┃ ┃ ┣ 📜imgAvilablitiy.js\
+ ┃ ┃ ┗ 📜resizeimg.js\
+ ┃ ┗ 📜index.js\
+ ┣ 📂images\
+ ┃ ┣ 📂thumbnail\
+ ┃ ┃ ┣ 📜encenadaport_200_200.jpg\
+ ┃ ┃ ┣ 📜fjord_10_990.jpg\
+ ┃ ┃ ┣ 📜fjord_1290_890.png\
+ ┃ ┃ ┣ 📜fjord_200_200.jpg\
+ ┃ ┃ ┣ 📜fjord_null_400.jpg\
+ ┃ ┃ ┣ 📜fjord_null_990.jpg\
+ ┃ ┃ ┣ 📜icelandwaterfall_200_200.jpg\
+ ┃ ┃ ┣ 📜palmtunnel_200_200.jpg\
+ ┃ ┃ ┗ 📜santamonica_200_200.jpg\
+ ┃ ┣ 📜encenadaport.jpg\
+ ┃ ┣ 📜fjord.jpg\
+ ┃ ┣ 📜icelandwaterfall.jpg\
+ ┃ ┣ 📜palmtunnel.jpg\
+ ┃ ┗ 📜santamonica.jpg\
+ ┣ 📂public\
+ ┃ ┣ 📂css\
+ ┃ ┃ ┣ 📜normalize.css\
+ ┃ ┃ ┗ 📜style.css\
+ ┃ ┣ 📂thumbimg\
+ ┃ ┃ ┣ 📜encenadaport_250_250.jpg\
+ ┃ ┃ ┣ 📜fjord_250_250.jpg\
+ ┃ ┃ ┣ 📜icelandwaterfall_250_250.jpg\
+ ┃ ┃ ┣ 📜palmtunnel_250_250.jpg\
+ ┃ ┃ ┗ 📜santamonica_250_250.jpg\
+ ┃ ┗ 📜index.html\
+ ┣ 📂spec\
+ ┃ ┗ 📂support\
+ ┃ ┃ ┗ 📜jasmine.json\
+ ┣ 📂src\
+ ┃ ┣ 📂middleware\
+ ┃ ┃ ┣ 📜logger.ts\
+ ┃ ┃ ┗ 📜urlvalid.ts\
+ ┃ ┣ 📂routes\
+ ┃ ┃ ┗ 📜route.ts\
+ ┃ ┣ 📂tests\
+ ┃ ┃ ┣ 📂helpers\
+ ┃ ┃ ┃ ┗ 📜reporter.ts\
  ┃ ┃ ┗ 📜index.Spec.ts
- ┃ ┣ 📂utils
- ┃ ┃ ┣ 📜controller.ts
- ┃ ┃ ┣ 📜imgAvilablitiy.ts
- ┃ ┃ ┗ 📜resizeimg.ts
- ┃ ┗ 📜index.ts
- ┣ 📜LICENSE.txt
- ┣ 📜README.md
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┗ 📜tsconfig.json
+ ┃ ┣ 📂utils\
+ ┃ ┃ ┣ 📜controller.ts\
+ ┃ ┃ ┣ 📜imgAvilablitiy.ts\
+ ┃ ┃ ┗ 📜resizeimg.ts\
+ ┃ ┗ 📜index.ts\
+ ┣ 📜LICENSE.txt\
+ ┣ 📜README.md\
+ ┣ 📜package-lock.json\
+ ┣ 📜package.json\
+ ┗ 📜tsconfig.json\
 
 
 ## Lessons Learned

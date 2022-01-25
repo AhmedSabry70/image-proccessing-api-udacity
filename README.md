@@ -183,16 +183,22 @@ Run Locally
 Go to the project directory and open your terminal there then write:
 
 ```bash
-  cd weather-journal-app/
+  cd image-processing-api/
 ```
 
-Install dependencies
+1. Install dependencies
 
 ```bash
   npm install
 ```
+2. Build
 
-## Running the project
+```
+    npm run build
+```
+
+3. Start the server
+## Running the project 
 Start the server
 
 ```bash
@@ -203,12 +209,41 @@ or
 ```bash
   npm run start
 ```
-or 
 
-```bash
-  node server.js
+> Note: Before starting the server from the dist folder using above command.The build command, in this project, only converts ts into js and put them in the dist folder.
+
+## Running the project and other
+4. Develop locally
+
+```
+    npm run dev
 ```
 
+5. Run unit tests
+
+```
+    npm run test
+```
+
+6. Run ESlint and prettier to show linting issues and fix it
+
+```
+    npm run lint
+```
+Run ESlint to fix linting issues 
+```
+    npm run lintfix
+```
+Run prettier to formating document
+```
+    npm run prettier
+```
+
+After you successfully run the server, open this URL in your browser and you will see documntaion to use the  project
+
+```
+    http://localhost:3000
+```
 
 ## Sources & Acknowledgements
 

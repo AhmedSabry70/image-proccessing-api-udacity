@@ -231,7 +231,7 @@ Run prettier to formating document
 ```
 
 After you successfully run the server, open this URL in your browser and you will see documntaion to use the  project
-> Go to your browser: [http://localhost:3002](http://localhost:3002)
+> Go to your browser: [http://localhost:3000](http://localhost:3000)
 
 ```
     http://localhost:3000

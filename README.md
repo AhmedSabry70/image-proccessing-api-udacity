@@ -5,10 +5,8 @@ simple mage-proccessing-api. This project aims to give you a real-world scenario
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
+* [Features](#Features)
 * [List Of Files](#List-of-files)
-* [Lessons Learned](#Lessons-Learned)
 * [Setup](#Setup)
 * [Environment & Requirements](#Environment-&-Requirements)
 * [Installation](#Installation)
@@ -52,14 +50,7 @@ simple mage-proccessing-api. This project aims to give you a real-world scenario
 
 ## Features
 
-- Live previews
-- Cross platform
-- animated svg icon
-- Local server running and producing feedback to the Command Line through a working callback function.
-
-
-## Screenshots
-![Example screenshot](/website/images/ScreenshotWeather.png)
+- Resizing an image
 
 
 ## List of files

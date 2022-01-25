@@ -248,11 +248,11 @@ After you successfully run the server, open this URL in your browser and you wil
 ## Sources & Acknowledgements
 
 - [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12908932988_c&utm_term=124509202031&utm_keyword=%2Budacity%20%2Bfront%20%2Bend_b&gclid=Cj0KCQiA4b2MBhD2ARIsAIrcB-QbkAFWCf5ecF9ouzvrpuhtkh5Q5IsGm_uLQN6dq2bS5rjPeYz7-UsaApOoEALw_wcB)
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [Sharp](https://www.npmjs.com/package/sharp)
+ - [Sharp Constructor documentation](https://sharp.pixelplumbing.com/api-constructor)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [Routing :: expressjs.com](https://expressjs.com/en/guide/routing.html)
- - [Fetch API :: MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+ - [Processing images with sharp in Node.js](https://blog.logrocket.com/processing-images-sharp-node-js/#setting-up-a-sharp-image-project)
+ - [Jasmine-Matchers](https://githubhelp.com/JamieMason/Jasmine-Matchers)
  - [JavaScript Promises: an introduction](https://web.dev/promises/)
  - [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
  - [JavaScript Promises: an introduction](https://web.dev/promises/)

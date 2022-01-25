@@ -23,7 +23,7 @@ simple weather app created with node.js and express.js
 
 
 ## General Information
-- This project requires to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
+- This project aims to give you a real-world scenario in which you would read and write to your disk via a Node.js express server rather than a database. 
 
 
 ## Technologies Used
@@ -166,10 +166,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 If the installation was successful, you should be able to run the following command.
 
     $ node --version
-    v8.11.3
+    ex: v8.11.3
 
     $ npm --version
-    6.1.0
+   ex: 6.1.0
 
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
@@ -240,6 +240,7 @@ Run prettier to formating document
 ```
 
 After you successfully run the server, open this URL in your browser and you will see documntaion to use the  project
+> Go to your browser: [http://localhost:3002](http://localhost:3002)
 
 ```
     http://localhost:3000
@@ -253,22 +254,21 @@ After you successfully run the server, open this URL in your browser and you wil
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
  - [Processing images with sharp in Node.js](https://blog.logrocket.com/processing-images-sharp-node-js/#setting-up-a-sharp-image-project)
  - [Jasmine-Matchers](https://githubhelp.com/JamieMason/Jasmine-Matchers)
- - [JavaScript Promises: an introduction](https://web.dev/promises/)
- - [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
- - [JavaScript Promises: an introduction](https://web.dev/promises/)
- - [JFetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
- - [ Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
- - [Property accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
+ - [JasmineJS - Boolean Check](https://www.tutorialspoint.com/jasminejs/jasminejs_boolean_check.htm)
+ - [Process Images the right way | SharpJS](https://www.theimmigrantprogrammers.com/p/process-images-the-right-way-sharpjs)
+ - [jasmine](https://jasmine.github.io/)
  - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
- - [Routing](https://expressjs.com/en/guide/routing.html)
+ - [TypeScript](https://www.typescriptlang.org/)
  - [How to Easily Update Node.js to the Latest Version](https://www.whitesourcesoftware.com/free-developer-tools/blog/update-node-js/)
- - [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction )
- - [Routing](https://expressjs.com/en/guide/routing.html)
+ - [Intro to the TSConfig Reference](https://www.typescriptlang.org/tsconfig#rootDir )
  - [Node.js](https://nodejs.org/en/)
  - [NPM](https://www.npmjs.com/)
  - [Express](http://expressjs.com/)
- - [Cors](https://www.npmjs.com/package/cors)
- - [Font Awesome](https://fontawesome.com/)
+ - [ESLint](https://eslint.org/docs/user-guide/)
+ - [Prettier](https://prettier.io/docs/en/)
+ - [dotenv](https://www.npmjs.com/package/dotenv)
+ - [supertest](https://www.npmjs.com/package/supertest)
+ 
 
 
 

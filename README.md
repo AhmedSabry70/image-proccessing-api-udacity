@@ -1,10 +1,4 @@
-# image-proccessing-api-udacity
-
-<p align="center" width="100%">
-    <img width="15%" src="/website/images/MY-LOGO-black.png">
-</p>
-
-# Landing Page ==> Udacity Project
+# image-proccessing-api ==> Udacity Project
 
 simple weather app created with node.js and express.js
 
@@ -35,15 +29,25 @@ simple weather app created with node.js and express.js
 ## Technologies Used
 **Client:**
 - HTML   - HTML5
-- CSS    - CSS3
-- JAVASCRIPT - version ES6  
+- CSS    - CSS3 
 
 **Server:** 
-- Node -v 10.19.0
-- Npm -v 6.14.4
-- Express -v 4.17.1
-- cors": -v 2.8.5
-- body-parser": -v 1.19.0
+- Node -v 16.13.1
+- Npm -v 8.3.0
+- Express -v 4.17.2
+- Typescript -v 4.5.4
+- sharp: -v 0.27.2
+- dotenv -v 10.0.0
+- nodemon -v 2.0.15
+
+**Unit Testing & Formating
+- jasmine -v 4.0.2
+- supertest -v 6.2.2
+- eslint": -v 8.6.0
+- prettier": -v 2.5.1
+
+**Middleware
+- morgan: v 1.10.0
 
 
 ## Features

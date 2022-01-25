@@ -248,7 +248,7 @@ After you successfully run the server, open this URL in your browser and you wil
 
 ## Sources & Acknowledgements
 
-- [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12908932988_c&utm_term=124509202031&utm_keyword=%2Budacity%20%2Bfront%20%2Bend_b&gclid=Cj0KCQiA4b2MBhD2ARIsAIrcB-QbkAFWCf5ecF9ouzvrpuhtkh5Q5IsGm_uLQN6dq2bS5rjPeYz7-UsaApOoEALw_wcB)
+- [Udacity](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12907727449_c&utm_term=121152421146&utm_keyword=%2Bnanodegree%20%2Bfull%20%2Bstack_b&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9GGL9LHtV7IiKVOSTfXrIIJsmWAkcBUkWgPjq0cy2nc7_zfrREGrmBoC7dMQAvD_BwE)
  - [Sharp](https://www.npmjs.com/package/sharp)
  - [Sharp Constructor documentation](https://sharp.pixelplumbing.com/api-constructor)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)

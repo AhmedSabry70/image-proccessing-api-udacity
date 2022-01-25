@@ -11,7 +11,7 @@ simple mage-proccessing-api. This project aims to give you a real-world scenario
 * [Environment & Requirements](#Environment-&-Requirements)
 * [Installation](#Installation)
 * [Running the project](#Running-the-project)
-* [Sources & Acknowledgements](#sources-&-Acknowledgements)
+* [Sources & Acknowledgements](#-Sources-&-Acknowledgements)
 * [Contact & Authors](#contact-&-Authors)
 * [Feedback](#Feedback)
 * [Support](#Support)

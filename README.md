@@ -124,15 +124,6 @@ simple mage-proccessing-api. This project aims to give you a real-world scenario
  ┣ 📜package.json\
  ┗ 📜tsconfig.json\
 
-## Lessons Learned
-
-- Create API credentials on OpenWeatherMap.com
-- APIs and Routes
-- asynchronous function
-- setup a Node environment with Express and the necessary project dependencies
-- setup a server with GET and POST routes
-- use the Fetch API with my credentials
-
 ## Setup
 
 ## Environment & Requirements

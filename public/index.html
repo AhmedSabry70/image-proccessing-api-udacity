@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>image processing api</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="hero">
+        <h1>Image Processing API</h1>
+        <p>A fast and scalable API to process (resize/format/convert) images</p>
+        <div class="acessGuid">
+          <p>
+            TO USE IT :
+            <a
+              href="http://localhost:3000/resize/?name=fjord.jpg&w=400&h=400"
+              target="_blank"
+              >http://localhost:3000/resize/?name=fjord.jpg&h=400</a
+            >
+          </p>
+          <p>
+            <span>GET:</span>
+            "/resize?name={NAME.jpg}&w={WIDTH}&h={HEIGHT}&ext=jpg" <br />
+            <span>GET:</span>
+            "/resize?name={NAME.jpg}&w={WIDTH}&h={HEIGHT}"
+          </p>
+        </div>
+      </section>
+      <section class="introduction">
+        <div>
+          <h3>Introduction</h3>
+          <p>
+            This is a node JS application built with typescript consisting of an
+            image processing API that takes an image file name and its dimension
+            (width and height) as input. On the server it checks if the image
+            with the requested dimensions is available or not. if the image is
+            available then it returns it otherwise it converts the image to the
+            requested size using the sharp.js library and then cache it on the
+            server so that it can be sent back to the client when next time the
+            same image is requested without having to process it again.
+          </p>
+        </div>
+      </section>
+      <section class="documentation">
+        <h3>Basic API information:</h3>
+        <p
+          style="
+            padding: 8px;
+            background: rgba(158, 169, 179, 0.603);
+            border-radius: 6px;
+          "
+        >
+          API Base URL
+          <span class="apilink">http://localhost:3000/resize</span>
+          This is a read-only API
+        </p>
+        <div class="info">
+          <p>Endpoint: <span style="font-weight: 300"> /resize</span></p>
+          <p>Method: <span> GET</span></p>
+        </div>
+
+        <div class="parameters">
+          <h3>Query Parameters:</h3>
+          <div class="info">
+            <p><span>name:</span> <span> string</span></p>
+            <p><span>w: </span> number <span>refer to width</span></p>
+            <p><span>h:</span> number <span>refer to height</span></p>
+            <p>
+              <span>ext:</span> string [Optional]
+              <span>refer to fileExtension </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="howtouse">
+        <h3>How to Use?</h3>
+        <p>
+          <span style="color: black; font-weight: 700"
+            >Change the resizing behavior
+          </span>
+          <br />
+          By default, images are resized to fit into the specified dimensions if
+          you input one dimension for example (w) only or (h)only ex:
+          <a
+            href="http://localhost:3000/resize/?name=fjord.jpg&h=400"
+            target="_blank"
+            >http://localhost:3000/resize/?name=fjord.jpg&h=400</a
+          >.
+          <br />
+          You can request a different behavior using the width or height
+          parameter.
+        </p>
+        <p>
+          <b>
+            there are five different sample images available to get in any
+            size.</b
+          >
+          <br />
+          You need to choose an image out of these five, specify the dimention
+          (width and height) and make a GET request to the following endpoint
+          <br />
+          <li style="color: rgb(145, 65, 0); font-weight: 700; font-size: 18px">
+            if you click on the image blow it will return you to request with
+            width 200 and height 200 by default to try it
+          </li>
+          <li style="color: rgb(145, 65, 0); font-weight: 700; font-size: 18px">
+            you also can copy the titile of the image blowe and make your
+            customise request
+          </li>
+        </p>
+
+        <div class="avilableimg">
+          <div class="img">
+            <div class="imgbody">
+              <a
+                href="http://localhost:3000/resize/?name=encenadaport.jpg&h=200&w=200"
+                target="_blank"
+                ><img src="./thumbimg/encenadaport_250_250.jpg" alt=""
+              /></a>
+            </div>
+            <div class="imgtitle">
+              <p>encenadaport.jpg</p>
+            </div>
+          </div>
+
+          <div class="img">
+            <div class="imgbody">
+              <a
+                href="http://localhost:3000/resize/?name=fjord.jpg&h=200&w=200"
+                target="_blank"
+                ><img src="./thumbimg/fjord_250_250.jpg" alt=""
+              /></a>
+            </div>
+            <div class="imgtitle">
+              <p>fjord.jpg</p>
+            </div>
+          </div>
+          <div class="img">
+            <div class="imgbody">
+              <a
+                href="http://localhost:3000/resize/?name=icelandwaterfall.jpg&h=200&w=200"
+                target="_blank"
+              >
+                <img src="./thumbimg/icelandwaterfall_250_250.jpg" alt=""
+              /></a>
+            </div>
+            <div class="imgtitle">
+              <p>icelandwaterfall.jpg</p>
+            </div>
+          </div>
+          <div class="img">
+            <div class="imgbody">
+              <a
+                href="http://localhost:3000/resize/?name=palmtunnel.jpg&h=200&w=200"
+                target="_blank"
+              >
+                <img src="./thumbimg/palmtunnel_250_250.jpg" alt=""
+              /></a>
+            </div>
+            <div class="imgtitle">
+              <p>palmtunnel.jpg</p>
+            </div>
+          </div>
+          <div class="img">
+            <div class="imgbody">
+              <a
+                href="http://localhost:3000/resize/?name=santamonica.jpg&h=200&w=200"
+                target="_blank"
+              >
+                <img src="./thumbimg/santamonica_250_250.jpg" alt=""
+              /></a>
+            </div>
+            <div class="imgtitle">
+              <p>santamonica.jpg</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="example">
+          <h3>Example requests:</h3>
+          <p>
+            <a
+              href="http://localhost:3000/resize/?name=fjord.jpg&h=400&w=780"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://localhost:3000/resize/?name=fjord.jpg&h=400&w=780</a
+            ><br />
+            <a
+              href="http://localhost:3000/resize/?name=fjord.jpg&h=890&w=1290&ext=png"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://localhost:3000/resize/?name=fjord.jpg&h=890&w=1290&ext=png</a
+            ><br />
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
